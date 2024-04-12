@@ -1,10 +1,10 @@
 const Sequelize = require("sequelize");
 const db = new Sequelize(
     'todo_db_6kue',
-    'ronesans2',
-    'reWiR9kct248ujXC040qrw3cRC90gwNs',
+    'abc',
+    'def',
     {
-        host: 'dpg-co556o4f7o1s7398740g-a',
+        host: 'ghj',
 	port: 5432,
         dialect: 'postgres'
     }
