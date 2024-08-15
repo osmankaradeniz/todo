@@ -5,7 +5,7 @@ const db = new Sequelize(
     't8prSaQ06v96b5XT',
     {
         host: 'aws-0-eu-central-1.pooler.supabase.com',
-	port: 6543,
+        port: 6543,
         dialect: 'postgres'
     }
 );

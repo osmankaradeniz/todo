@@ -1,7 +1,7 @@
 const db = require("../middlewares/database.js");
 const { DataTypes } = require("sequelize");
 
-const User = db.define("user", {
+const User = db.define("t_user", {
     user_id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -18,6 +18,7 @@ const User = db.define("user", {
 },
     {
         timestamps: false,
+        tableName: 'user'
     });
 
 module.exports = User;
