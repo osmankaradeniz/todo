@@ -1,11 +1,11 @@
 const Sequelize = require("sequelize");
 const db = new Sequelize(
-    'todo_db_6kue',
-    'abc',
-    'def',
+    'todo_demo_db',
+    'hpohsyodwwxssxjdjpqt',
+    't8prSaQ06v96b5XT',
     {
-        host: 'ghj',
-	port: 5432,
+        host: 'aws-0-eu-central-1.pooler.supabase.com',
+	port: 6543,
         dialect: 'postgres'
     }
 );
