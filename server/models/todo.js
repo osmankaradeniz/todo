@@ -26,6 +26,8 @@ const Todo = db.define("todo", {
 },
     {
         timestamps: true,
-    });
+        tableName: 'todo'
+    }
+);
 
 module.exports = Todo;
