@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const db = new Sequelize(
     'todo_demo_db',
-    'hpohsyodwwxssxjdjpqt',
+    'postgres.hpohsyodwwxssxjdjpqt',
     't8prSaQ06v96b5XT',
     {
         host: 'aws-0-eu-central-1.pooler.supabase.com',
